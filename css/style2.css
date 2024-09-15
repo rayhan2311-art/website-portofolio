@@ -1,0 +1,139 @@
+:root {
+    --mainColor : #9fa7e0;
+    --secondaryColor : #7fabda;
+    --acsentColor : #532a90;
+
+}
+
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* Navbar Style */
+
+.nav-link.active{
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+/* Hero Style*/
+
+.color-acsent{
+    color: var(--acsentColor);
+}
+#hero {
+    color: #fff;
+    min-height: 100vh;
+}
+
+#hero h1 {
+    font-size: 2rem;
+}
+#hero h2 {
+    font-weight: 300;
+}
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.contact.p{
+    margin-top: 20px;
+}
+.btn-custom1{
+    background-color: var(--acsentColor);
+    color: #fff;
+    text-align: center;
+    min-width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.btn-custom1:hover{
+    box-shadow: 0 0 7px rgba(255, 170, 0, .8);
+}
+
+.Social-icon svg{
+    margin-right: .7em;
+    margin-bottom: 5px;
+}
+
+/*About Style*/
+#about {
+    min-height: 6rem;
+    text-align: center;
+    color: #000000;
+    background-color: var(--secondaryColor);
+   
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
+}
+
+hr{
+    width: 35%;
+    height: 7px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+}
+#about h1{
+    color: #fff;
+    margin: 0 auto;
+}
+
+/*keahlian section*/
+
+.skill{
+    border: #000000;
+    text-align: center;
+    position: top;
+   margin: 0 auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(131, 163, 192);
+    margin-bottom: 100px;
+    margin-top: 50px;
+    float: right;
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    margin-right: 125px;
+    position: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
+}
+.box p{
+    color: #000000;
+    position: center;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 225px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.box h1{
+    font-size: 30px;
+    
+}
+
+.gambar{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+a{
+    margin-top: 30px;
+}
+
+img{
+    margin-right: 20px;
+}
